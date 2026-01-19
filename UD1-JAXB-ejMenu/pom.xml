@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dam2</groupId>
+  <artifactId>UD1-JAXB-ejMenu</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api -->
+	<dependency>
+    	<groupId>jakarta.xml.bind</groupId>
+    	<artifactId>jakarta.xml.bind-api</artifactId>
+    	<version>4.0.4</version>
+	</dependency>
+   <!-- https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime -->
+	<dependency>
+	    <groupId>org.glassfish.jaxb</groupId>
+	    <artifactId>jaxb-runtime</artifactId>
+	    <version>4.0.6</version>
+	</dependency>
+  </dependencies>
+</project>
